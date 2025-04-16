@@ -4,6 +4,7 @@
   import PartsAndWeapon from './partsAndWeapon.svelte';
   import AcType from './acType.svelte';
   import Output from './output.svelte';
+  import OutputJson from './outputJson.svelte';
 </script>
 
 <div>
@@ -21,5 +22,8 @@
   </div>
   <div>
     <Output />
+  </div>
+  <div>
+    <OutputJson />
   </div>
 </div>
